@@ -1,0 +1,34 @@
+name: Error in the documentation
+description: Something in the docs is wrong, unclear or out of date
+labels: [docs-error]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the page (website or GitHub)
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the statement and explain what is actually true
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: How do you know?
+      options:
+        - Tested on my keyboard
+        - Firmware analysis
+        - Official web driver
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Keyboard model and firmware version (if relevant)
+      placeholder: Jet75-II, V116

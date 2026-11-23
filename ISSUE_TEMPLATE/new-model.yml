@@ -1,0 +1,39 @@
+name: Add / research a keyboard model
+description: Help document another MCHOSE magnetic keyboard
+labels: [new-model]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      placeholder: Ace 68 Pro
+    validations:
+      required: true
+  - type: input
+    id: vidpid
+    attributes:
+      label: USB VID:PID
+      description: "Linux: `lsusb`; Windows: Device Manager → Details → Hardware Ids"
+      placeholder: 41e4:2116
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: As shown by the official driver
+  - type: textarea
+    id: descriptors
+    attributes:
+      label: HID report descriptors (optional)
+      description: "Linux: `cat /sys/class/hidraw/hidraw*/device/report_descriptor | xxd` for the keyboard's nodes"
+      render: text
+  - type: textarea
+    id: notes
+    attributes:
+      label: What works / what you can test
+  - type: markdown
+    attributes:
+      value: |
+        **Privacy:** do not attach raw USB captures or key logs — they contain everything you typed.
+        Post short excerpts of the relevant packets instead.
