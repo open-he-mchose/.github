@@ -21,6 +21,14 @@ Not affiliated with or endorsed by MCHOSE.
 NKRO/Snap Tap firmware bug with a Linux fix). Other models: listed, not yet researched — owners of other
 MCHOSE magnetic keyboards are very welcome to help.
 
-Planned: `linux-fixes` (HID-BPF descriptor fix, udev rules), `driver` (open driver and CLI).
+## Roadmap
+
+1. 🚧 **Complete reverse engineering of the Jet75-II** — protocol, lighting, depth stream and advanced keys
+   are done; macros, profiles and the remaining fields are next.
+2. 📋 **Open driver** — library and CLI for Linux, Windows and macOS.
+3. 📋 **Cross-platform GUI** — a desktop configurator on top of the driver, an open alternative to the
+   official web driver.
+
+Full roadmap: https://open-he-mchose.github.io/roadmap/
 
 No vendor firmware, software or code is distributed here.
