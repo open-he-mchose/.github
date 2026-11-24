@@ -24,8 +24,8 @@ MCHOSE magnetic keyboards are very welcome to help.
 ## Roadmap
 
 1. 🚧 **Complete reverse engineering of the Jet75-II** — protocol, lighting, depth stream, advanced keys,
-   macros, profiles and Fn-layer codes are done; the remaining FuncConfig fields, report rate and calibration
-   are next.
+   macros, profiles, Fn-layer codes and FuncConfig are done; calibration and the firmware update protocol
+   (analysis only) are next.
 2. 📋 **Open driver** — C++ library and CLI for Linux and Windows.
 3. 📋 **Desktop GUI** — a Qt configurator for Windows and Linux on top of the driver, an open alternative to
    the official web driver. macOS is not planned for now.
