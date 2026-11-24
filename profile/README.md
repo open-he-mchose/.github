@@ -15,7 +15,7 @@ Not affiliated with or endorsed by MCHOSE.
 |---|---|
 | [docs](https://github.com/open-he-mchose/docs) | Protocol (`glw` family, 30 models), per-model pages, firmware internals, known bugs |
 | [re-tools](https://github.com/open-he-mchose/re-tools) | Tools for researching new models: Ghidra language for WCH QingKe RISC-V, firmware → ELF, web-driver and USB helpers |
-| [driver](https://github.com/open-he-mchose/driver) | Open driver (C++20, Linux and Windows): protocol library, the `mchosectl` command-line tool and the `mchose-gui` Qt configurator with Lua lighting effects |
+| [driver](https://github.com/open-he-mchose/driver) | Open driver (C++20, Linux and Windows): protocol library, the `mchosectl` command-line tool and the `mchose-gui` Qt configurator (Windows, Linux AppImage) with Lua lighting effects and a virtual gamepad |
 | [linux-fixes](https://github.com/open-he-mchose/linux-fixes) | Linux: HID-BPF fix for the broken NKRO descriptor (Snap Tap, macros, >6 keys) and udev rules |
 | [open-he-mchose.github.io](https://github.com/open-he-mchose/open-he-mchose.github.io) | The website, built from `docs` |
 | [old](https://github.com/open-he-mchose/old) | Archived first workspace (Jet75-II only), not maintained |
@@ -29,10 +29,10 @@ MCHOSE magnetic keyboards are very welcome to help.
 1. 🚧 **Complete reverse engineering of the Jet75-II** — protocol, lighting, depth stream, advanced keys,
    macros, profiles, Fn-layer codes and FuncConfig are done; calibration and the firmware update protocol
    (analysis only) are next.
-2. ✅ **Open driver** — C++ library and the `mchosectl` CLI for Linux and Windows, released (0.2.0).
+2. ✅ **Open driver** — C++ library and the `mchosectl` CLI for Linux and Windows, released (0.3.0).
 3. 🚧 **Desktop GUI** — a Qt configurator for Windows and Linux on top of the driver, an open alternative to
-   the official web driver; released in 0.2.0 (Windows package) with all editors and Lua lighting effects; next: Linux AppImage,
-   depth graph, Russian translation.
+   the official web driver; released (0.3.0: Windows zip, Linux AppImage) with all editors, Lua lighting effects, depth graph,
+   virtual gamepad and Russian translation; next: switch calibration.
 
 Full roadmap: https://open-he-mchose.github.io/roadmap/
 
