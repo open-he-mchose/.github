@@ -15,6 +15,7 @@ Not affiliated with or endorsed by MCHOSE.
 |---|---|
 | [docs](https://github.com/open-he-mchose/docs) | Protocol (`glw` family, 30 models), per-model pages, firmware internals, known bugs |
 | [re-tools](https://github.com/open-he-mchose/re-tools) | Tools for researching new models: Ghidra language for WCH QingKe RISC-V, firmware → ELF, web-driver and USB helpers |
+| [driver](https://github.com/open-he-mchose/driver) | Open driver (C++20, Linux and Windows): protocol library and the `mchosectl` command-line tool — early development |
 | [linux-fixes](https://github.com/open-he-mchose/linux-fixes) | Linux: HID-BPF fix for the broken NKRO descriptor (Snap Tap, macros, >6 keys) and udev rules |
 | [open-he-mchose.github.io](https://github.com/open-he-mchose/open-he-mchose.github.io) | The website, built from `docs` |
 | [old](https://github.com/open-he-mchose/old) | Archived first workspace (Jet75-II only), not maintained |
@@ -28,7 +29,7 @@ MCHOSE magnetic keyboards are very welcome to help.
 1. 🚧 **Complete reverse engineering of the Jet75-II** — protocol, lighting, depth stream, advanced keys,
    macros, profiles, Fn-layer codes and FuncConfig are done; calibration and the firmware update protocol
    (analysis only) are next.
-2. 📋 **Open driver** — C++ library and CLI for Linux and Windows.
+2. 🚧 **Open driver** — C++ library and CLI for Linux and Windows; first milestone done.
 3. 📋 **Desktop GUI** — a Qt configurator for Windows and Linux on top of the driver, an open alternative to
    the official web driver. macOS is not planned for now.
 
