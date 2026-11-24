@@ -15,7 +15,9 @@ Not affiliated with or endorsed by MCHOSE.
 |---|---|
 | [docs](https://github.com/open-he-mchose/docs) | Protocol (`glw` family, 30 models), per-model pages, firmware internals, known bugs |
 | [re-tools](https://github.com/open-he-mchose/re-tools) | Tools for researching new models: Ghidra language for WCH QingKe RISC-V, firmware → ELF, web-driver and USB helpers |
+| [linux-fixes](https://github.com/open-he-mchose/linux-fixes) | Linux: HID-BPF fix for the broken NKRO descriptor (Snap Tap, macros, >6 keys) and udev rules |
 | [open-he-mchose.github.io](https://github.com/open-he-mchose/open-he-mchose.github.io) | The website, built from `docs` |
+| [old](https://github.com/open-he-mchose/old) | Archived first workspace (Jet75-II only), not maintained |
 
 **Status:** Jet75-II fully documented and tested (protocol, key-depth stream, lighting, advanced keys,
 NKRO/Snap Tap firmware bug with a Linux fix). Other models: listed, not yet researched — owners of other
