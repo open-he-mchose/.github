@@ -29,10 +29,10 @@ MCHOSE magnetic keyboards are very welcome to help.
 1. 🚧 **Complete reverse engineering of the Jet75-II** — protocol, lighting, depth stream, advanced keys,
    macros, profiles, Fn-layer codes, FuncConfig and calibration are done; the firmware update protocol
    (analysis only) is next.
-2. ✅ **Open driver** — C++ library and the `mchosectl` CLI for Linux and Windows, released (0.3.1).
+2. ✅ **Open driver** — C++ library and the `mchosectl` CLI for Linux and Windows, released (0.3.2).
 3. 🚧 **Desktop GUI** — a Qt configurator for Windows and Linux on top of the driver, an open alternative to
-   the official web driver; released (0.3.1: Windows zip, Linux AppImage) with all editors, Lua lighting effects, depth graph,
-   virtual gamepad and Russian translation; guided switch calibration is done for the next release.
+   the official web driver; released (0.3.2: Windows zip, Linux AppImage) with all editors, Lua lighting effects, depth graph,
+   virtual gamepad, Russian translation and guided switch calibration.
 
 Full roadmap: https://open-he-mchose.github.io/roadmap/
 
